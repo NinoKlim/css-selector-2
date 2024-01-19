@@ -2,11 +2,11 @@
   color: red;
   background-color: yellow;
 }
-.link:hover {
-  color: green;
+.lesson-four-task-two > .link:hover ~ .title {
+  background-color: green;
 }
 
-.link:visited {
+#lesson-four-task-three .link:visited {
   color: yellow;
 }
 
@@ -18,8 +18,7 @@
   background-color: blue;
 }
 
-.lesson-four-task-six .btn:focus,
-.lesson-four-task-six > input:focus {
+.lesson-four-task-six .btn:focus {
   background-color: orange;
   color: orange;
 }
